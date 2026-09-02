@@ -45,6 +45,12 @@ Testing identified issues including:
 - HALT conditions that could remain active too long
 - Interface and explainability requirements
 
+  ### Debugging and Iteration Evidence
+
+![ThinkScript debugging and compiler validation](images/02-debugging-compilation-errors.png)
+
+*Early development state showing compiler and type errors identified during ThinkScript testing. The issues were diagnosed, corrected, and retested as part of the iterative QA/UAT process.*
+
 Each finding informed another requirements or implementation revision followed by retesting.
 
 ## Configurability
@@ -52,6 +58,12 @@ Each finding informed another requirements or implementation revision followed b
 The system includes controls that allow the displayed information and behavior to be adjusted for different usage needs.
 
 Users can enable or disable interface elements such as panels, debugging information, chart bubbles, and arrows, while additional controls expose event limits, cooldown behavior, spacing, thresholds, and other system parameters.
+
+### Configurable Interface and Controls
+
+![Configurable Risk Control Panel](images/01-configurable-risk-control-panel.png)
+
+*Working-state view highlighting configurable display and behavior controls. Users can enable or disable elements such as the panel, debug label, chart bubbles, and arrows, while additional settings expose event limits, cooldown behavior, ATR-based spacing, and confidence thresholds. This supports a cleaner everyday interface while retaining deeper tuning and diagnostic controls when needed.*
 
 This allows the same system to support a cleaner everyday view while retaining deeper configuration and diagnostic controls when needed.
 
